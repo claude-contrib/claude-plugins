@@ -9,10 +9,10 @@ Add the marketplace to your Claude Code settings (`~/.claude/settings.json`):
 ```json
 {
   "extraKnownMarketplaces": {
-    "claude-plugins": {
+    "extra-plugins": {
       "source": {
         "source": "github",
-        "repo": "claude-contrib/claude-plugins"
+        "repo": "claude-contrib/extra-plugins"
       }
     }
   }
@@ -22,7 +22,7 @@ Add the marketplace to your Claude Code settings (`~/.claude/settings.json`):
 Then install plugins:
 
 ```text
-/plugin install <plugin-name>@claude-plugins
+/plugin install <plugin-name>@extra-plugins
 ```
 
 ## Available Plugins

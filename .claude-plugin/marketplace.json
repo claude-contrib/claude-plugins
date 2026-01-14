@@ -1,5 +1,5 @@
 {
-  "name": "claude-plugins",
+  "name": "extra-plugins",
   "owner": {
     "name": "claude-contrib"
   },
@@ -17,12 +17,8 @@
       },
       "source": "./plugins/agents-context",
       "category": "context",
-      "tags": [
-        "agents.md"
-      ],
-      "keywords": [
-        "agents.md"
-      ]
+      "tags": ["agents.md"],
+      "keywords": ["agents.md"]
     }
   ]
 }

@@ -38,10 +38,10 @@ proper `.gitignore` handling. In non-git directories, it falls back to `find`.
 
 ```bash
 # Add the claude-contrib marketplace
-/plugin marketplace add claude-contrib/claude-plugins
+/plugin marketplace add claude-contrib/extra-plugins
 
 # Install the plugin
-/plugin install agents-context@claude-plugins
+/plugin install agents-context@extra-plugins
 ```
 
 ### Local Development
@@ -49,7 +49,7 @@ proper `.gitignore` handling. In non-git directories, it falls back to `find`.
 ```bash
 # From the repository root
 /plugin marketplace add .
-/plugin install agents-context@claude-plugins
+/plugin install agents-context@extra-plugins
 ```
 
 ## Setup
@@ -263,7 +263,7 @@ Git submodules are independent repositories with their own history, branches, an
 
 ## Contributing
 
-Issues and pull requests welcome at the [claude-plugins repository](https://github.com/claude-contrib/claude-plugins).
+Issues and pull requests welcome at the [extra-plugins repository](https://github.com/claude-contrib/extra-plugins).
 
 ## License
 
